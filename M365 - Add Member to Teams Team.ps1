@@ -6,7 +6,7 @@
 #
 # v 1.0 Initial Release
 # v 1.1 Added Stored Credentials
-#       see for details: https://au2mator.com/documentation/powershell-credentials/?utm_source=github&utm_medium=social&utm_campaign=M365_AddMemberToTeams&utm_content=PS1
+#       see for details: https://click.au2mator.com/PSCreds/?utm_source=github&utm_medium=social&utm_campaign=M365_AddMemberToTeams&utm_content=PS1
 # v 1.1 Added SMTP Port
 # v 1.2 applied v1.3 Template, code designs, Powershell 7 ready, au2mator 4.0, GRAPH API
 #
@@ -58,7 +58,7 @@ $DoImportPSSession = $false
 [string]$LogPath = "C:\_SCOworkingDir\TFS\PS-Services\M365 - Add Member to Teams Team"
 [string]$LogfileName = "Add Member to Teams Team"
 
-[string]$CredentialStorePath = "C:\_SCOworkingDir\TFS\PS-Services\CredentialStore" #see for details: https://au2mator.com/documentation/powershell-credentials/?utm_source=github&utm_medium=social&utm_campaign=M365_AddMemberToTeams&utm_content=PS1
+[string]$CredentialStorePath = "C:\_SCOworkingDir\TFS\PS-Services\CredentialStore" #see for details: https://click.au2mator.com/PSCreds/?utm_source=github&utm_medium=social&utm_campaign=M365_AddMemberToTeams&utm_content=PS1
 
 
 
@@ -82,7 +82,7 @@ $SMTPSender = "SelfService@au2mator.com"
 $SMTPPort = "587"
 
 # Stored Credentials
-# See: https://au2mator.com/documentation/powershell-credentials/?utm_source=github&utm_medium=social&utm_campaign=M365_AddMemberToTeams&utm_content=PS1
+# See: https://click.au2mator.com/PSCreds/?utm_source=github&utm_medium=social&utm_campaign=M365_AddMemberToTeams&utm_content=PS1
 $SMTPCredential_method = "Stored" #Stored, Manual
 $SMTPcredential_File = "SMTPCreds.xml"
 $SMTPUser = ""
